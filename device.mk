@@ -69,6 +69,11 @@ PRODUCT_PACKAGES += \
     f2fs_io \
     check_f2fs
 
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.base@1.0 \
+    android.hidl.manager@1.0
+
 # NFC
 PRODUCT_PACKAGES += \
     NfcNci \
