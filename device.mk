@@ -94,6 +94,10 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.alioth
+
 # NFC
 PRODUCT_PACKAGES += \
     NfcNci \
