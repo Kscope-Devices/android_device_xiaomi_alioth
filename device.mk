@@ -60,6 +60,13 @@ PRODUCT_PACKAGES += \
     f2fs_io \
     check_f2fs
 
+# NFC
+PRODUCT_PACKAGES += \
+    NfcNci \
+    Tag \
+    SecureElement \
+    com.android.nfc_extras
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayAlioth \
