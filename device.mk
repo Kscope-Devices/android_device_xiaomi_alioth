@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+$(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
+
+ALIOTH_PREBUILT := device/xiaomi/alioth-prebuilt
+
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
@@ -140,7 +144,7 @@ PRODUCT_COPY_FILES += \
 
 # Vendor boot modules
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,$(THYME_PREBUILT)/modules/,$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/modules)
+    $(call find-copy-subdir-files,*,$(ALIOTH_PREBUILT)/modules/,$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/modules)
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 30

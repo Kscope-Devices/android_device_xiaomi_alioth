@@ -7,6 +7,9 @@
 DEVICE_PATH := device/xiaomi/alioth
 ALIOTH_PREBUILT := device/xiaomi/alioth-prebuilt
 
+# Inherit from the proprietary version
+-include vendor/xiaomi/alioth/BoardConfigVendor.mk
+
 BUILD_BROKEN_DUP_RULES := true
 
 # A/B
