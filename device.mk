@@ -61,7 +61,8 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayAlioth \
-    WifiResOverlayAlioth
+    WifiResOverlayAlioth \
+    DialerOverlayAlioth
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
