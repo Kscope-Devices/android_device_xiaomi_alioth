@@ -73,7 +73,8 @@ PRODUCT_PACKAGES += \
     WifiResOverlayAlioth \
     DialerOverlayAlioth \
     SettingsOverlayAlioth \
-    CarrierConfigOverlayAlioth
+    CarrierConfigOverlayAlioth \
+    TelephonyOverlayAlioth
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true

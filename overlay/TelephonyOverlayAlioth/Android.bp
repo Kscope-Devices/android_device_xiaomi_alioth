@@ -1,0 +1,7 @@
+runtime_resource_overlay {
+    name: "TelephonyOverlayAlioth",
+    theme: "TelephonyOverlayAlioth",
+    certificate: "platform",
+    sdk_version: "current",
+    product_specific: true
+}
