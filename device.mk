@@ -112,7 +112,8 @@ PRODUCT_PACKAGES += \
     SettingsOverlayAlioth \
     CarrierConfigOverlayAlioth \
     TelephonyOverlayAlioth \
-    SystemUIOverlayAlioth
+    SystemUIOverlayAlioth \
+    SettingsProviderOverlayAlioth
 
 # Overlays - override vendor ones
 PRODUCT_PACKAGES += \
