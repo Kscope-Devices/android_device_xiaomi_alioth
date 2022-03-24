@@ -60,6 +60,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    FrameworkResOverlayAlioth \
     WifiResOverlayAlioth
 
 # Partitions
